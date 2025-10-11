@@ -1,0 +1,16 @@
+
+{
+  "name": "comp3104",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://disha2117.github.io/COMP3104",
+  "scripts": {
+    "build": "echo \"No build step\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
+
